@@ -1,0 +1,7 @@
+import React from "react";
+import { BarChart3, TrendingUp } from "lucide-react";
+export default function Analytics() {
+  const bars=[72,84,68,91,79,96,88];
+  return <div className="page"><div className="welcome"><div><div className="eyebrow">PERFORMANCE INTELLIGENCE</div><h1>Analytics</h1><p>Operational metrics for the prior authorization engine.</p></div></div>
+  <div className="chart-grid"><div className="panel"><div className="panel-title"><span>Weekly throughput</span><TrendingUp size={18}/></div><div className="bars">{bars.map((v,i)=><div className="bar-col" key={i}><div className="bar" style={{height:v+"%"}}/><small>{["Mon","Tue","Wed","Thu","Fri","Sat","Sun"][i]}</small></div>)}</div></div><div className="panel"><div className="panel-title"><span>Target metrics</span><BarChart3 size={18}/></div><div className="metric-row"><span>Instant processing</span><b>92.4%</b></div><div className="progress"><i style={{width:"92.4%"}}/></div><div className="metric-row"><span>Decision accuracy</span><b>96.1%</b></div><div className="progress"><i style={{width:"96.1%"}}/></div><div className="metric-row"><span>Appeals prediction</span><b>83.2%</b></div><div className="progress"><i style={{width:"83.2%"}}/></div></div></div></div>;
+}
