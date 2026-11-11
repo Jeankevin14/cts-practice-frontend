@@ -1,7 +1,7 @@
 {
-  "name": "prior-auth-ai-corrected",
+  "name": "proauth-ai",
   "private": true,
-  "version": "1.0.0",
+  "version": "0.0.1",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -9,14 +9,14 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@react-three/drei": "^10.7.8",
+    "@react-three/fiber": "^9.7.0",
     "@vitejs/plugin-react": "latest",
-    "vite": "latest",
+    "lucide-react": "latest",
     "react": "latest",
     "react-dom": "latest",
-    "lucide-react": "latest",
-    "three": "latest",
-    "@react-three/fiber": "latest",
-    "@react-three/drei": "latest"
-  },
-  "devDependencies": {}
+    "react-router-dom": "latest",
+    "three": "^0.185.1",
+    "vite": "latest"
+  }
 }
