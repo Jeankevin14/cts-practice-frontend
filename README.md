@@ -8,6 +8,8 @@ Prior authorization is the approval a health insurer requires before certain tre
 
 The complete system (backend, ML model and documentation) is in the main project repository: [Prior-Authorization-NPN](https://github.com/Abdullah-218/Prior-Authorization-NPN).
 
+![ProAuth IQ landing page](docs/screenshot.jpg)
+
 ---
 
 ## Features
